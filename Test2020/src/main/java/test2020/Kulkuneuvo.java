@@ -1,5 +1,5 @@
 package test2020;
-public abstract class Kulkuneuvo {
+public abstract class Kulkuneuvo implements IKulkuneuvo {
 
       
     public Kulkuneuvo() {
