@@ -5,16 +5,15 @@ public class Test2020 {
         Auto a = new Auto("Ford", "Escort");
         Rekka r = new Rekka("Scania", "VTF400");
         LinjaAuto la = new LinjaAuto("Volvo", "PowerBus1000");
-        
         Auto a2 = new Auto("Kia", "Ceed");
-        
+        Mopo m = new Mopo("Honda","CBR250R");
         
         a.tulostaTiedot();
         r.tulostaTiedot();
         la.tulostaTiedot();
         
         a2.tulostaTiedot();
-        
+        m.tulostaTiedot();
         
     
         
