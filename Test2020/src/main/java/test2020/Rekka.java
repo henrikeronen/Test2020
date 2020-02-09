@@ -1,15 +1,15 @@
 package test2020;
-public class Auto extends Kulkuneuvo{
-    
+public class Rekka extends Kulkuneuvo {
+
     private String merkki;
     private String malli;
 
-    public Auto() {
-    }
-
-    public Auto(String merkki, String malli) {
+    public Rekka(String merkki, String malli) {
         this.merkki = merkki;
         this.malli = malli;
+    }
+
+    public Rekka() {
     }
 
     public String getMalli() {
@@ -29,12 +29,9 @@ public class Auto extends Kulkuneuvo{
         this.merkki = merkki;
     }
 
-    
-    
-    
     @Override
     public void tulostaTiedot() {
-        System.out.println("Autosi tiedot -->  Merkki: "+merkki+" ja malli:"+malli);
+        System.out.println("Rekkasi tiedot -->  Merkki: "+merkki+" ja malli:"+malli);
     }
     
     

@@ -1,6 +1,7 @@
 package test2020;
 public abstract class Kulkuneuvo {
 
+      
     public Kulkuneuvo() {
     }
     
