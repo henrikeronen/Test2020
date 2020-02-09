@@ -4,9 +4,11 @@ public class Test2020 {
     
         Auto a = new Auto("Ford", "Escort");
         Rekka r = new Rekka("Scania", "VTF400");
+        LinjaAuto la = new LinjaAuto("Volvo", "PowerBus1000");
         
         a.tulostaTiedot();
         r.tulostaTiedot();
+        la.tulostaTiedot();
     
         
         
