@@ -15,6 +15,8 @@ public class Test2020 {
         a2.tulostaTiedot();
         m.tulostaTiedot();
         
+        System.out.println("Kaikki toimii OK!");
+        
     
         
         
