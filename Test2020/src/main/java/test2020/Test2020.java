@@ -6,9 +6,16 @@ public class Test2020 {
         Rekka r = new Rekka("Scania", "VTF400");
         LinjaAuto la = new LinjaAuto("Volvo", "PowerBus1000");
         
+        Auto a2 = new Auto("Kia", "Ceed");
+        
+        
         a.tulostaTiedot();
         r.tulostaTiedot();
         la.tulostaTiedot();
+        
+        a2.tulostaTiedot();
+        
+        
     
         
         
